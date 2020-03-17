@@ -1,15 +1,3 @@
-//----------------------------------------------------------------------------
-//
-//  Song class 
-//  Implementation
-//
-//----------------------------------------------------------------------------
-//
-//  Author:         Sabneet Bains
-//  Date:           November 2017
-//
-//----------------------------------------------------------------------------
-
 #include "Song.h"
 #include <iostream>
 #include <string>
@@ -19,14 +7,14 @@
 using namespace std;
 
 // default constructor
-//Song::Song()
-//{
-//	myTitle_ = "title";
-//	myAlbum_ = "album";
-//	myArtist_ = "artist";
-//	myCategory_ = PUNJABI;
-//	myPlaying_time_ = 0;
-//}
+Song::Song()
+{
+	myTitle_ = "title";
+	myAlbum_ = "album";
+	myArtist_ = "artist";
+	myCategory_ = PUNJABI;
+	myPlaying_time_ = 0;
+}
 
 // alternate constructor
 Song::Song(const string& title, const string& album, const string& artist, const Category& category, const int& playing_time)
