@@ -1,15 +1,3 @@
-//----------------------------------------------------------------------------
-//
-//  Song class 
-//  Implementation
-//
-//----------------------------------------------------------------------------
-//
-//  Author:         Sabneet Bains
-//  Date:           November 2017
-//
-//----------------------------------------------------------------------------
-
 //EXTREMELY IMPORTANT: Please, compile in VS as I did not have the oppurtunity to test on g++
 //Likewise, the homework did not mention g++ compatibility in the grading scheme either
 
@@ -137,36 +125,6 @@ int main()
 		}
 	}
 
-
-//-----------HOMEWORK 3 CODE-------------------------------------------------------//
-	//string artist_name_check;
-	//cout << "\nNow please enter the name of an artist to check in Catalog: ";
-	//getline(cin, artist_name_check);
-
-	//checkCatalog(mySongs, artist_name_check);//checks the provided artist name in the vector
-
-	//										 //get a new song and check if it is already in the catalog by using the == operator
-	//string song_check;
-	//Song checkSong;
-	//cout << "\n\nOne last time, please enter a song and I will check if it is already in the Catalog:\n\n"; //Case sensitive; the homework does not seem to have guidance in this regard
-	//cin >> checkSong;
-
-	//int song_match = 0;
-	//for (int i = 0; i < mySongs.size(); i++)
-	//{
-	//	if (checkSong == mySongs[i])
-	//		song_match = 1;
-	//}
-
-	//if (song_match != 0)
-	//{
-	//	cout << "\n\n\t\tThe entered song was FOUND in the Catalog!\n\n\n\n";
-	//}
-	//else
-	//{
-	//	cout << "\n\n\t\tThe entered song is NOT in the Catalog!\n\n\n\n";
-	//}
-//--------------------------------------------------------------------------------//
 	system("pause");
 	return 0;
 }
