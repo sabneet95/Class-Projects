@@ -1,6 +1,3 @@
-//EXTREMELY IMPORTANT: Please, compile in VS as I did not have the oppurtunity to test on g++
-//Likewise, the homework did not mention g++ compatibility in the grading scheme either
-
 #include "Song.h"
 #include <iostream>
 #include <algorithm>
@@ -66,7 +63,7 @@ void checkCatalog(vector <Song> a, string artist_name)
 
 int main()
 {
-	vector <Song> mySongs(2); //Homework 3 asked for at least 5, hower vector is pre-populated with 2 to make grading easier and faster
+	vector <Song> mySongs(2);
 	for (int i = 0; i < mySongs.size(); i++)
 	{
 		if (i < 1)
@@ -117,8 +114,7 @@ int main()
 			quick_sort(mySongs, 0, mySongs.size() - 1);
 			printCatalog(mySongs); // Calls the print function on the sorted vector
 		}
-		else //No guidance in the homework as to what to do if the user does not answer yes
-			//therefore, if the user answers anything other than a 'y' or 'Y' the following pursues:
+		else 
 		{
 			cout << "\n\nYou did not say 'yes' so not much has changed, well matter of fact the catalog still is: " << endl;
 			printCatalog(mySongs);
