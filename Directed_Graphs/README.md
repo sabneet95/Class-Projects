@@ -1,22 +1,26 @@
-# Cycles of Directed Graphs
+# Lab 3: Cycles of Directed Graphs
 
-Cycles of Directed Graphs is a Java program to read the number of nodes in a provided directed graph and its corresponding adjacency matrix, one row at a time. The program uses recursion to find and list all possible non-looping paths between all possible pairs of nodes.
+Cycles of Directed Graphs is a Java program to read the number of nodes in a provided directed graph and its 
+corresponding adjacency matrix, one row at a time. The program uses linked allocation and recursion to find and 
+list all possible non-looping paths between all possible pairs of nodes.
 
-→ `To do so, it reads a user-provided adjacency matrix input file and processes each respective matrices and graph until the end of the file.` 
+→ `To do so, it reads a user-provided adjacency matrix input file and processes each respective matrices and graph 
+until the end of the file.`
 
 ## Requirements
 
 [Java SE Development Kit 15.0.1](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
 
-Set of specifically formatted input files: 
+Set of specifically formatted input files:
 * _"PathsGraphInput.txt"_
-* _"StudentGeneratedInput.txt"_
+* _"StudentGeneratedInput_1.txt"_
+* _"StudentGeneratedInput_2.txt"_
 
 ## Build Tested
 
-IntelliJ IDEA 2020.3 Beta (Community Edition)
-* Build #IC-203.5784.10, built on November 10, 2020
-* Runtime version: 11.0.9+11-b1145.10 amd64
+IntelliJ IDEA 2020.3 RC (Community Edition)
+* Build #IC-203.5981.114, built on November 10, 2020
+* Runtime version: 11.0.9+11-b1145.21 amd64
 * VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
 * Windows 10 10.0
 * GC: ParNew, ConcurrentMarkSweep
@@ -25,11 +29,11 @@ IntelliJ IDEA 2020.3 Beta (Community Edition)
 
 ## Usage
 
-1)	Open the project in **IntelliJ IDEA** > _build_ & run the Driver Class.
+1)	Open the project in **IntelliJ IDEA** > _build_ & run the driver class.
 
 
 ```java
-public class Driver {
+public class driver {
     @SuppressWarnings("InstantiationOfUtilityClass")
     // If the user provides faulty input, an IOException takes care of bad I/O
     public static void main(String[] args) throws IOException {
@@ -42,17 +46,20 @@ public class Driver {
             new read_input(input_file, output_file);
 ```
 
-2)	Either provide the input & output files as command-line arguments when executing the Driver Class or later when the conditional logic prompts **<!>**
+2)	Either provide the input & output files as command-line arguments when executing the driver class or later when the 
+      conditional logic prompts **<!>**
 
 ```
-    >>  java Driver
+    >>  java driver
 
         <!> Oops, you didn't provide the required (two) command-line arguments! <!>
 
         No worries, go ahead and type the input file name: █
 ```
 
-3)	According to the lab specifications, the program uses recursion to find and list all possible _non-looping paths_ between all possible pairs of nodes and saves the results in the stated output file.
+3)	According to the lab specifications, the program uses linked association and recursion to find and 
+      list all possible _non-looping paths_ between all possible pairs of nodes and saves the results 
+      in the stated output file.
 
 ```java
     if (tail != head)
@@ -62,7 +69,8 @@ public class Driver {
     }
 ```
 
-4)	For added convenience, pre-run output files _"PathsGraphOutput.txt"_ and _"StudentGeneratedOutput.txt"_ are provided based on the original lab, and the student-generated inputs.
+4)	For added convenience, pre-run output files _"PathsGraphOutput.txt"_ and _"StudentGeneratedOutput.txt"_ are provided
+      based on the original lab and student-generated inputs.
 
 ```
  •••=================================================••
