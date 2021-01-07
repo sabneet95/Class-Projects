@@ -1,4 +1,4 @@
-# Lab 3: Cycles of Directed Graphs
+# Cycles of Directed Graphs
 
 Cycles of Directed Graphs is a Java program to read the number of nodes in a provided directed graph and its 
 corresponding adjacency matrix, one row at a time. The program uses linked allocation and recursion to find and 
