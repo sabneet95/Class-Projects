@@ -11,7 +11,7 @@ Hence, three recursive Quicksort algorithms and one Natural Merge Sort were cons
 [Java SE Development Kit 15.0.1](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
 
 Set of specifically formatted input files included in:
-* _"~/Lab4InputFiles/"_
+* _"~/input_files/"_
 
 ## Build Tested
 
