@@ -21,7 +21,7 @@ public:
 	//Song(); // default
 	Song(const string& title = "Na Ja", const string& album = "N/A", const string& artist = "Pav Dharia", const Category& category = PUNJABI, const int& playing_time = 4); // alternate
 
-																																											//inspectors
+	//inspectors
 	Category getCategory() const;
 	string getCategory_string() const;
 	string getTitle() const;
