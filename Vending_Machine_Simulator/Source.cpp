@@ -9,23 +9,20 @@ using namespace std;
 /*
  The main function:
 
- 1) Runs a forever loop to simulate the continuous operation of a vending machine.
-    To further simulate interaction with a user, it requests the user for a type of soda.
+ 1) Simulates the continuous operation of a soda vending machine by running a 
+    forever loop while displaying the current quantity of distinct types of sodas
+    and their prices.
 
- 2) Simulates the continuous operation of a soda vending machine by running a 
-    forever loop while displaying the current quantity of distinct types of sodas 
-	and their prices.
-
- 3) The selection buttons are simulated by requesting the user for a type of soda.
+ 2) The selection buttons are simulated by requesting the user for a type of soda.
     At the same time, the function checks for input faults and prompts the user, 
-	accordingly, given that the particular soda did not run out yet.
+    accordingly, given that the particular soda did not run out yet.
 
- 4) Once a selection is made, the user must enter the corresponding price as given 
-    in the metrics table. The logical front end then taps into ìCurrency.hî and 
-	ìCurrency.cppî to figure out if the entered amount matches, is less than, or 
-	exceeds the price of the given soda.
+ 3) Once a selection is made, the user must enter the corresponding price as given 
+    in the metrics table. The logical front end then taps into ‚ÄúCurrency.h‚Äù and 
+    ‚ÄúCurrency.cpp‚Äù to figure out if the entered amount matches, is less than, or 
+    exceeds the price of the given soda.
 
- 5) Finally, if everything goes smoothly, a soda is dispensed, change is returned 
+ 4) Finally, if everything goes smoothly, a soda is dispensed, change is returned 
     (if any), and the loop begins again.
 
 
