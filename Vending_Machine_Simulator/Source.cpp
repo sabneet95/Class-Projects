@@ -85,8 +85,8 @@ int main()
 					handled_money = numeric_money - soda.getPrice(selection);
 
 					cout << setw(74) << right << "+-----------------------+\n"
-						 << setw(67) << right << " | Change Returned $" << handled_money << " | \n"
-						 << setw(72) << right << "\\---------------------/";
+					     << setw(67) << right << " | Change Returned $" << handled_money << " | \n"
+					     << setw(72) << right << "\\---------------------/";
 					
 					change.getDenominations(handled_money); // gets individual US denominations
 					change.returnChange(change); // prints out the change denominations
@@ -98,7 +98,7 @@ int main()
 			else
 			{
 				cout << "\n" << setw(70) << right 
-					 << "<!> Sorry, but the machine ran out of " << selection << "!\n\n";
+				     << "<!> Sorry, but the machine ran out of " << selection << "!\n\n";
 			}
 		}
 
