@@ -94,7 +94,7 @@ void Soda::dispenseSoda(std::string type)
 			<< "\n" << std::setw(30) << std::right << "|    SODA     |\n"
 			<< std::setw(30) << std::right << "|  DISPENSED  |\n"
 			<< std::setw(30) << std::right << "|             |\n"
-		    << std::setw(30) << std::right << " (___________)\n\n";
+		        << std::setw(30) << std::right << " (___________)\n\n";
 	}
 }
 
@@ -109,7 +109,7 @@ void Soda::displayMetrics(Soda soda)
 {
 	std::cout
 		<< "\n+---------------+---------------+-------------+\n"
-	    << std::setw(13) << std::left << "|   Soda Type\t"
+	        << std::setw(13) << std::left << "|   Soda Type\t"
 		<< std::setw(12) << std::left << "|     Price\t"
 		<< std::setw(14) << std::left << "|   Quantity" << "|\n"
 		<< "+---------------+---------------+-------------+\n" 
