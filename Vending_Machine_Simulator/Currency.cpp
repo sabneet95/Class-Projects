@@ -34,8 +34,8 @@ Currency::Currency()
 // Inspector
 /*
  The Currency::getDenominations() function takes in any amount of US currency 
- and breaks it down into its denominations of dollar bills and cents. Likewise, 
- to keep the complexity metrics to a minimum, the logic is primarily hard-coded 
+ and breaks it down into its denominations of bills and cents. Likewise, to 
+ keep the complexity metrics to a minimum, the logic is primarily hard-coded 
  even though specific patterns can be looped.
 
  @param money - a double argument
