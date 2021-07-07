@@ -53,7 +53,7 @@ int Soda::getQuantity(std::string type)
 double Soda::getPrice(std::string type)
 {
 	// when the vector no longer exists
-    // returns a zero to make the math work
+        // returns a zero to make the math work
 	if (SODA_[type].size() < 1)
 	{
 		return 0;
