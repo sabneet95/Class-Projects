@@ -19,7 +19,7 @@ Visual Studio Code
 
 ## Usage
 
-1)	Open the project directory and run the _"./project1_sbains.exe"_ to start the simulation!
+1)	Open the project directory and run the _".\project1_sbains.exe"_ to start the simulation!
 
 
 <img src="https://github.com/sabneet95/Computer-Science/blob/master/Vending_Machine_Simulator/Vending_Machine.gif" width="853.3" height="480">
