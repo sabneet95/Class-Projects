@@ -22,7 +22,7 @@ Visual Studio Code
 1)	Open the project directory and run the project1_sbains.exe to start the simulation!
 
 
-<img src="https://github.com/sabneet95/Game-Development/blob/main/game_title.gif" width="853.3" height="480">
+<img src="https://github.com/sabneet95/Computer-Science/blob/master/Vending_Machine_Simulator/Vending_Machine.gif" width="853.3" height="480">
 
 
 ## Contributing
