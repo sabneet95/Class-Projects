@@ -1,6 +1,6 @@
 # 🥤 Vending Machine Simulator
 
-A repository of a layered design architecture object-oriented vending machine simulator with a Mersenne Twister pseudo-random uniform distribution randomizing simulations.
+A repository of a layered design object-oriented vending machine simulator with a Mersenne Twister pseudo-random uniform distribution to randomize simulations.
 
 ## Build Tested
 
